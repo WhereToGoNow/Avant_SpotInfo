@@ -2,10 +2,10 @@ from __future__ import print_function
 
 import googlemaps
 import json
+import sys
 
 PATH_INPUT = 'input.txt'
 PATH_OUTPUT = 'output.json'
-API_KEY = 'AIzaSyAZ116sYwYampWa0lmH0Ypqn2vvAWtIXXA'
 
 def read_input():
     print('Reading the names of the spots from %s... ' % PATH_INPUT, end='')
@@ -38,9 +38,9 @@ def retrieve(dc, key_1, key_2=None):
     else:
         return value
 
-def search_info(list_names):
+def search_info(list_names, api_key):
     dict_info = {}
-    client = googlemaps.Client(API_KEY)
+    client = googlemaps.Client(api_key)
 
     for name in list_names:
         print('Searching "%s"... ' % name, end='')
@@ -84,11 +84,16 @@ def search_info(list_names):
 
     return dict_info
 
-def main():
+def main(argv):
+    if len(argv) < 2:
+        print('Usage: python search.py (api_key)')
+        return
+
+    api_key = argv[1]
     list_names = read_input()
-    dict_info = search_info(list_names)
+    dict_info = search_info(list_names, api_key)
     write_output(dict_info)
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv)
 
