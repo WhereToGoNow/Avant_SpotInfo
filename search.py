@@ -5,9 +5,11 @@ import json
 
 PATH_INPUT = 'input.txt'
 PATH_OUTPUT = 'output.json'
-API_KEY = 'AIzaSyDjZL2Os_sAEhnQRAwfPyLAJWU9tykuLIY'
+API_KEY = 'AIzaSyAZ116sYwYampWa0lmH0Ypqn2vvAWtIXXA'
 
 def read_input():
+    print('Reading the names of the spots from %s... ' % PATH_INPUT, end='')
+
     with open(PATH_INPUT, 'rb') as p:
         lines = p.readlines()
 
@@ -17,15 +19,16 @@ def read_input():
         if s and (s[0] == '-'):
             list_names.append(s[1:].strip())
 
-    print('Read the names of the spots from %s.' % PATH_INPUT)
-
+    print('Success!')
     return list_names
 
 def write_output(dict_info):
+    print('Writing the data to %s... ' % PATH_OUTPUT, end='')
+
     with open(PATH_OUTPUT, 'wb') as p:
         json.dump(dict_info, fp=p, indent=4)
 
-    print('Wrote the data to %s.' % PATH_OUTPUT)
+    print('Success!')
 
 def retrieve(dc, key_1, key_2=None):
     value = dc.get(key_1)
