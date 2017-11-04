@@ -1,0 +1,24 @@
+* Data from https://en.wikipedia.org/wiki/Lists_of_tourist_attractions
+* Program only parses the lines starting with '-'.
+
+(1) France
+- Centre Georges-Pompidou
+- Cite des Sciences et de l'industrie
+- The Louvre
+- Musee des Arts et Metiers
+- The Arc de Triomphe
+- The Conciergerie
+- The Eiffel Tower
+- The Grand Palais
+- Les Invalides
+- The Palais Garnier
+- The Pantheon
+- Place des Vosges
+- Place Vendome
+- Basilica of the Sacre Coeur
+- Notre Dame de Paris Cathedral
+- The Pere Lachaise Cemetry
+- Sainte-Chapelle
+- Church of St Eustache
+- Grand Mosque of Paris
+
