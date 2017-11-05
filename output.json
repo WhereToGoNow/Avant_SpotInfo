@@ -81,21 +81,73 @@
             "lng": 2.3294325
         }
     }, 
-    "The Conciergerie": {
-        "website": "http://conciergerie.monuments-nationaux.fr/", 
-        "rating": 4.1, 
+    "Mont Saint-Michel": {
+        "website": null, 
+        "rating": null, 
         "utc_offset": 60, 
-        "place_id": "ChIJR3122B9u5kcRajG2bEZLypA", 
-        "phone": "+33 1 53 40 60 80", 
-        "address": "2 Boulevard du Palais, 75001 Paris, France", 
+        "place_id": "ChIJs-6cfNaoDkgR_sMNfuRMg8U", 
+        "phone": null, 
+        "address": "50170 Mont Saint-Michel, France", 
+        "types": [
+            "locality", 
+            "political"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+        "name": "Mont Saint-Michel", 
+        "url": "https://maps.google.com/?q=50170+Mont+Saint-Michel,+France&ftid=0x480ea8d67c9ceeb3:0xc5834ce47e0dc3fe", 
+        "opening_hours": null, 
+        "vicinity": "Mont Saint-Michel", 
+        "location": {
+            "lat": 48.63606300000001, 
+            "lng": -1.511457
+        }
+    }, 
+    "Centre Georges-Pompidou": {
+        "website": "http://www.centrepompidou.fr/", 
+        "rating": 4.4, 
+        "utc_offset": 60, 
+        "place_id": "ChIJoyC4CRxu5kcRRTPcWX5srLc", 
+        "phone": "+33 1 44 78 12 33", 
+        "address": "Place Georges-Pompidou, 75004 Paris, France", 
         "types": [
             "museum", 
             "point_of_interest", 
             "establishment"
         ], 
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "Conciergerie", 
-        "url": "https://maps.google.com/?cid=10433234252600848746", 
+        "name": "The Centre Pompidou", 
+        "url": "https://maps.google.com/?cid=13235072694864327493", 
+        "opening_hours": [
+            "Monday: 11:00 AM \u2013 9:00 PM", 
+            "Tuesday: Closed", 
+            "Wednesday: 11:00 AM \u2013 9:00 PM", 
+            "Thursday: 11:00 AM \u2013 9:00 PM", 
+            "Friday: 11:00 AM \u2013 9:00 PM", 
+            "Saturday: 11:00 AM \u2013 9:00 PM", 
+            "Sunday: 11:00 AM \u2013 9:00 PM"
+        ], 
+        "vicinity": "Place Georges-Pompidou, Paris", 
+        "location": {
+            "lat": 48.86064200000001, 
+            "lng": 2.352245
+        }
+    }, 
+    "Sainte-Chapelle": {
+        "website": "http://sainte-chapelle.monuments-nationaux.fr/", 
+        "rating": 4.6, 
+        "utc_offset": 60, 
+        "place_id": "ChIJR3122B9u5kcRaCck3PlB9DM", 
+        "phone": "+33 1 53 40 60 80", 
+        "address": "8 Boulevard du Palais, 75001 Paris, France", 
+        "types": [
+            "church", 
+            "place_of_worship", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png", 
+        "name": "Sainte-Chapelle", 
+        "url": "https://maps.google.com/?cid=3743689731647743848", 
         "opening_hours": [
             "Monday: 9:30 AM \u2013 6:00 PM", 
             "Tuesday: 9:30 AM \u2013 6:00 PM", 
@@ -105,10 +157,316 @@
             "Saturday: 9:30 AM \u2013 6:00 PM", 
             "Sunday: 9:30 AM \u2013 6:00 PM"
         ], 
-        "vicinity": "2 Boulevard du Palais, Paris", 
+        "vicinity": "8 Boulevard du Palais, Paris", 
         "location": {
-            "lat": 48.85601139999999, 
-            "lng": 2.345495299999999
+            "lat": 48.85542, 
+            "lng": 2.344987
+        }
+    }, 
+    "The Arc de Triomphe": {
+        "website": "http://arc-de-triomphe.monuments-nationaux.fr/", 
+        "rating": 4.6, 
+        "utc_offset": 60, 
+        "place_id": "ChIJjx37cOxv5kcRPWQuEW5ntdk", 
+        "phone": "+33 1 55 37 73 77", 
+        "address": "Place Charles de Gaulle, 75008 Paris, France", 
+        "types": [
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
+        "name": "Arc de Triomphe", 
+        "url": "https://maps.google.com/?cid=15687558599447307325", 
+        "opening_hours": [
+            "Monday: 10:00 AM \u2013 11:00 PM", 
+            "Tuesday: 10:00 AM \u2013 11:00 PM", 
+            "Wednesday: 10:00 AM \u2013 11:00 PM", 
+            "Thursday: 10:00 AM \u2013 11:00 PM", 
+            "Friday: 10:00 AM \u2013 11:00 PM", 
+            "Saturday: 10:00 AM \u2013 11:00 PM", 
+            "Sunday: 10:00 AM \u2013 11:00 PM"
+        ], 
+        "vicinity": "Place Charles de Gaulle, Paris", 
+        "location": {
+            "lat": 48.8737917, 
+            "lng": 2.295027499999999
+        }
+    }, 
+    "Grand Mosque of Paris": {
+        "website": "http://www.mosqueedeparis.net/", 
+        "rating": 4.3, 
+        "utc_offset": 60, 
+        "place_id": "ChIJB9uM3_Fx5kcRy2y4TdSLiBE", 
+        "phone": "+33 1 45 35 97 33", 
+        "address": "2bis Place du Puits de l'Ermite, 75005 Paris, France", 
+        "types": [
+            "mosque", 
+            "place_of_worship", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_islam-71.png", 
+        "name": "Grande Mosqu\u00e9e de Paris", 
+        "url": "https://maps.google.com/?cid=1263413439430683851", 
+        "opening_hours": null, 
+        "vicinity": "2bis Place du Puits de l'Ermite, Paris", 
+        "location": {
+            "lat": 48.8418416, 
+            "lng": 2.355172
+        }
+    }, 
+    "Pont du Gard": {
+        "website": "http://www.pontdugard.fr/", 
+        "rating": 4.3, 
+        "utc_offset": 60, 
+        "place_id": "ChIJ1QTnSMLItRIR4uqG8xlzsSY", 
+        "phone": "+33 4 66 37 50 99", 
+        "address": "400 Route du Pont du Gard, 30210 Vers-Pont-du-Gard, France", 
+        "types": [
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+        "name": "Pont du Gard", 
+        "url": "https://maps.google.com/?cid=2788136199616129762", 
+        "opening_hours": [
+            "Monday: 9:00 AM \u2013 8:00 PM", 
+            "Tuesday: 9:00 AM \u2013 8:00 PM", 
+            "Wednesday: 9:00 AM \u2013 8:00 PM", 
+            "Thursday: 9:00 AM \u2013 8:00 PM", 
+            "Friday: 9:00 AM \u2013 8:00 PM", 
+            "Saturday: 9:00 AM \u2013 8:00 PM", 
+            "Sunday: 9:00 AM \u2013 8:00 PM"
+        ], 
+        "vicinity": "400 Route du Pont du Gard, Vers-Pont-du-Gard", 
+        "location": {
+            "lat": 43.94756599999999, 
+            "lng": 4.53496
+        }
+    }, 
+    "The Reims Cathedral": {
+        "website": null, 
+        "rating": null, 
+        "utc_offset": 60, 
+        "place_id": "ChIJn8hxxVJ06UcRWLLRPy_K-TA", 
+        "phone": null, 
+        "address": "3 Rue Guillaume de Machault, 51100 Reims, France", 
+        "types": [
+            "premise", 
+            "church", 
+            "place_of_worship", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png", 
+        "name": "Reims Cathedral", 
+        "url": "https://maps.google.com/?q=3+Rue+Guillaume+de+Machault,+51100+Reims,+France&ftid=0x47e97452c571c89f:0x30f9ca2f3fd1b258", 
+        "opening_hours": null, 
+        "vicinity": "Reims", 
+        "location": {
+            "lat": 49.2538569, 
+            "lng": 4.0340402
+        }
+    }, 
+    "Palace of Versailles": {
+        "website": "http://www.chateauversailles.fr/homepage", 
+        "rating": 4.5, 
+        "utc_offset": 60, 
+        "place_id": "ChIJdUyx15R95kcRj85ZX8H8OAU", 
+        "phone": "+33 1 30 83 78 00", 
+        "address": "Place d'Armes, 78000 Versailles, France", 
+        "types": [
+            "premise", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+        "name": "Palace of Versailles", 
+        "url": "https://maps.google.com/?cid=376328476344045199", 
+        "opening_hours": null, 
+        "vicinity": "Place d'Armes, Versailles", 
+        "location": {
+            "lat": 48.8048649, 
+            "lng": 2.1203554
+        }
+    }, 
+    "Palais des Papes": {
+        "website": "http://www.palais-des-papes.com/", 
+        "rating": 4.4, 
+        "utc_offset": 60, 
+        "place_id": "ChIJb_jbjobrtRIRy9KIwWXljHc", 
+        "phone": "+33 4 32 74 32 74", 
+        "address": "Place du Palais, 84000 Avignon, France", 
+        "types": [
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+        "name": "Palais des Papes", 
+        "url": "https://maps.google.com/?cid=8614512412454343371", 
+        "opening_hours": [
+            "Monday: 9:00 AM \u2013 7:00 PM", 
+            "Tuesday: 9:00 AM \u2013 7:00 PM", 
+            "Wednesday: 9:00 AM \u2013 7:00 PM", 
+            "Thursday: 9:00 AM \u2013 7:00 PM", 
+            "Friday: 9:00 AM \u2013 7:00 PM", 
+            "Saturday: 9:00 AM \u2013 7:00 PM", 
+            "Sunday: 9:00 AM \u2013 7:00 PM"
+        ], 
+        "vicinity": "Place du Palais, Avignon", 
+        "location": {
+            "lat": 43.9508521, 
+            "lng": 4.8076971
+        }
+    }, 
+    "Le Puy-en-Velay": {
+        "website": null, 
+        "rating": null, 
+        "utc_offset": 60, 
+        "place_id": "ChIJKcigQUD69UcRcPrny688CQQ", 
+        "phone": null, 
+        "address": "43000 Le Puy, France", 
+        "types": [
+            "locality", 
+            "political"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+        "name": "Le Puy", 
+        "url": "https://maps.google.com/?q=43000+Le+Puy,+France&ftid=0x47f5fa4041a0c829:0x4093cafcbe7fa70", 
+        "opening_hours": null, 
+        "vicinity": "Le Puy", 
+        "location": {
+            "lat": 45.042768, 
+            "lng": 3.882936
+        }
+    }, 
+    "Chartres Cathedral": {
+        "website": "http://www.cathedrale-chartres.org/", 
+        "rating": 4.7, 
+        "utc_offset": 60, 
+        "place_id": "ChIJlYA6J0QM5EcRISiIn2K1IBs", 
+        "phone": "+33 2 37 21 59 08", 
+        "address": "16 Clo\u00eetre Notre Dame, 28000 Chartres, France", 
+        "types": [
+            "church", 
+            "place_of_worship", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png", 
+        "name": "Chartres Cathedral", 
+        "url": "https://maps.google.com/?cid=1954761673466718241", 
+        "opening_hours": [
+            "Monday: 8:30 AM \u2013 7:30 PM", 
+            "Tuesday: 8:30 AM \u2013 7:30 PM", 
+            "Wednesday: 8:30 AM \u2013 7:30 PM", 
+            "Thursday: 8:30 AM \u2013 7:30 PM", 
+            "Friday: 8:30 AM \u2013 7:30 PM", 
+            "Saturday: 8:30 AM \u2013 7:30 PM", 
+            "Sunday: 8:30 AM \u2013 7:30 PM"
+        ], 
+        "vicinity": "16 Clo\u00eetre Notre Dame, Chartres", 
+        "location": {
+            "lat": 48.4478026, 
+            "lng": 1.4878371
+        }
+    }, 
+    "The Grand Palais": {
+        "website": "http://www.grandpalais.fr/", 
+        "rating": 4.5, 
+        "utc_offset": 60, 
+        "place_id": "ChIJ0dzuSNBv5kcRa6BHUVdFm0k", 
+        "phone": "+33 1 44 13 17 17", 
+        "address": "3 Avenue du G\u00e9n\u00e9ral Eisenhower, 75008 Paris, France", 
+        "types": [
+            "museum", 
+            "art_gallery", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
+        "name": "Grand Palais", 
+        "url": "https://maps.google.com/?cid=5303909227487010923", 
+        "opening_hours": null, 
+        "vicinity": "3 Avenue du G\u00e9n\u00e9ral Eisenhower, Paris", 
+        "location": {
+            "lat": 48.86610909999999, 
+            "lng": 2.3124544
+        }
+    }, 
+    "Cite des Sciences et de l'industrie": {
+        "website": "http://www.cite-sciences.fr/", 
+        "rating": 4.1, 
+        "utc_offset": 60, 
+        "place_id": "ChIJD6qS3zJs5kcRJ8_ebdhX0VI", 
+        "phone": "+33 1 40 05 70 00", 
+        "address": "30 Avenue Corentin Cariou, 75019 Paris, France", 
+        "types": [
+            "movie_theater", 
+            "museum", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
+        "name": "City of Science and Industry", 
+        "url": "https://maps.google.com/?cid=5967647568310488871", 
+        "opening_hours": null, 
+        "vicinity": "30 Avenue Corentin Cariou, Paris", 
+        "location": {
+            "lat": 48.8955948, 
+            "lng": 2.3878996
+        }
+    }, 
+    "Church of St Eustache": {
+        "website": "http://www.saint-eustache.org/", 
+        "rating": 4.6, 
+        "utc_offset": 60, 
+        "place_id": "ChIJK6mOeCJu5kcRpE3-oj_GxD4", 
+        "phone": "+33 1 42 36 31 05", 
+        "address": "2 Impasse Saint-Eustache, 75001 Paris, France", 
+        "types": [
+            "church", 
+            "place_of_worship", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png", 
+        "name": "Saint-Eustache, Paris", 
+        "url": "https://maps.google.com/?cid=4522957902406634916", 
+        "opening_hours": null, 
+        "vicinity": "2 Impasse Saint-Eustache, Paris", 
+        "location": {
+            "lat": 48.8633888, 
+            "lng": 2.3450527
+        }
+    }, 
+    "Palace of Fontainebleau": {
+        "website": "http://www.musee-chateau-fontainebleau.fr/", 
+        "rating": 4.5, 
+        "utc_offset": 60, 
+        "place_id": "ChIJSaN8rYj05UcRgKvDAW_qXv8", 
+        "phone": "+33 1 60 71 50 70", 
+        "address": "77300 Fontainebleau, France", 
+        "types": [
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+        "name": "Ch\u00e2teau de Fontainebleau", 
+        "url": "https://maps.google.com/?cid=18401402889974295424", 
+        "opening_hours": [
+            "Monday: 9:30 AM \u2013 6:00 PM", 
+            "Tuesday: Closed", 
+            "Wednesday: 9:30 AM \u2013 6:00 PM", 
+            "Thursday: 9:30 AM \u2013 6:00 PM", 
+            "Friday: 9:30 AM \u2013 6:00 PM", 
+            "Saturday: 9:30 AM \u2013 6:00 PM", 
+            "Sunday: 9:30 AM \u2013 6:00 PM"
+        ], 
+        "vicinity": "Fontainebleau", 
+        "location": {
+            "lat": 48.4020962, 
+            "lng": 2.699495799999999
         }
     }, 
     "The Louvre": {
@@ -193,49 +551,54 @@
             "lng": 2.3431043
         }
     }, 
-    "Place des Vosges": {
-        "website": "http://www.parisinfo.com/transports/73189/Place-des-Vosges", 
-        "rating": 4.6, 
+    "Nimes Roman Monuments": {
+        "website": "http://www.arenes-nimes.com/fr/node/1007", 
+        "rating": 4.3, 
         "utc_offset": 60, 
-        "place_id": "ChIJUeiI4P9x5kcRqEwHl6V32GQ", 
-        "phone": null, 
-        "address": "Place des Vosges, 75004 Paris, France", 
+        "place_id": "ChIJLa5vkpgttBIRJ6dcwPz_ZDc", 
+        "phone": "+33 4 66 21 82 56", 
+        "address": "Les Jardins de la Fontaine, Place Guillaume Apollinaire, 30000 N\u00eemes, France", 
         "types": [
-            "park", 
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png", 
-        "name": "Place des Vosges", 
-        "url": "https://maps.google.com/?cid=7266689551849442472", 
-        "opening_hours": null, 
-        "vicinity": "Place des Vosges, Paris", 
-        "location": {
-            "lat": 48.85561140000001, 
-            "lng": 2.3655266
-        }
-    }, 
-    "The Grand Palais": {
-        "website": "http://www.grandpalais.fr/", 
-        "rating": 4.5, 
-        "utc_offset": 60, 
-        "place_id": "ChIJ0dzuSNBv5kcRa6BHUVdFm0k", 
-        "phone": "+33 1 44 13 17 17", 
-        "address": "3 Avenue du G\u00e9n\u00e9ral Eisenhower, 75008 Paris, France", 
-        "types": [
-            "museum", 
-            "art_gallery", 
             "point_of_interest", 
             "establishment"
         ], 
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "Grand Palais", 
-        "url": "https://maps.google.com/?cid=5303909227487010923", 
-        "opening_hours": null, 
-        "vicinity": "3 Avenue du G\u00e9n\u00e9ral Eisenhower, Paris", 
+        "name": "La Tour Magne", 
+        "url": "https://maps.google.com/?cid=3991596630781241127", 
+        "opening_hours": [
+            "Monday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM", 
+            "Tuesday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM", 
+            "Wednesday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM", 
+            "Thursday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM", 
+            "Friday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM", 
+            "Saturday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM", 
+            "Sunday: 9:30 AM \u2013 1:00 PM, 2:00 \u2013 6:30 PM"
+        ], 
+        "vicinity": "Les Jardins de la Fontaine, Place Guillaume Apollinaire, N\u00eemes", 
         "location": {
-            "lat": 48.86610909999999, 
-            "lng": 2.3124544
+            "lat": 43.8430316, 
+            "lng": 4.349347900000001
+        }
+    }, 
+    "Epernay Champagne": {
+        "website": null, 
+        "rating": null, 
+        "utc_offset": 60, 
+        "place_id": "ChIJ9yEDwL4U6UcR4FI7mrlfCgQ", 
+        "phone": null, 
+        "address": "\u00c9pernay, France", 
+        "types": [
+            "locality", 
+            "political"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+        "name": "\u00c9pernay", 
+        "url": "https://maps.google.com/?q=%C3%89pernay,+France&ftid=0x47e914bec00321f7:0x40a5fb99a3b52e0", 
+        "opening_hours": null, 
+        "vicinity": "\u00c9pernay", 
+        "location": {
+            "lat": 49.043411, 
+            "lng": 3.956242
         }
     }, 
     "Musee des Arts et Metiers": {
@@ -268,22 +631,111 @@
             "lng": 2.3554383
         }
     }, 
-    "Sainte-Chapelle": {
-        "website": "http://sainte-chapelle.monuments-nationaux.fr/", 
-        "rating": 4.6, 
+    "Les Invalides": {
+        "website": "http://www.musee-armee.fr/", 
+        "rating": 4.5, 
         "utc_offset": 60, 
-        "place_id": "ChIJR3122B9u5kcRaCck3PlB9DM", 
-        "phone": "+33 1 53 40 60 80", 
-        "address": "8 Boulevard du Palais, 75001 Paris, France", 
+        "place_id": "ChIJUzCPuddv5kcRasGAnEUUWkU", 
+        "phone": null, 
+        "address": "Place des Invalides, 75007 Paris, France", 
         "types": [
-            "church", 
-            "place_of_worship", 
+            "museum", 
             "point_of_interest", 
             "establishment"
         ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png", 
-        "name": "Sainte-Chapelle", 
-        "url": "https://maps.google.com/?cid=3743689731647743848", 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
+        "name": "Les Invalides", 
+        "url": "https://maps.google.com/?cid=4997329025731969386", 
+        "opening_hours": [
+            "Monday: 10:00 AM \u2013 6:00 PM", 
+            "Tuesday: 10:00 AM \u2013 6:00 PM", 
+            "Wednesday: 10:00 AM \u2013 6:00 PM", 
+            "Thursday: 10:00 AM \u2013 6:00 PM", 
+            "Friday: 10:00 AM \u2013 6:00 PM", 
+            "Saturday: 10:00 AM \u2013 6:00 PM", 
+            "Sunday: 10:00 AM \u2013 6:00 PM"
+        ], 
+        "vicinity": "Place des Invalides, Paris", 
+        "location": {
+            "lat": 48.8551861, 
+            "lng": 2.3125844
+        }
+    }, 
+    "Chateau de Chambord": {
+        "website": "http://www.chambord.org/", 
+        "rating": 4.5, 
+        "utc_offset": 60, 
+        "place_id": "ChIJISi4ftOt5EcRcSgOYXWwH20", 
+        "phone": "+33 2 54 50 40 00", 
+        "address": "Ch\u00e2teau, 41250 Chambord, France", 
+        "types": [
+            "park", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+        "name": "Ch\u00e2teau de Chambord", 
+        "url": "https://maps.google.com/?cid=7863197492598155377", 
+        "opening_hours": [
+            "Monday: 9:00 AM \u2013 5:00 PM", 
+            "Tuesday: 9:00 AM \u2013 5:00 PM", 
+            "Wednesday: 9:00 AM \u2013 5:00 PM", 
+            "Thursday: 9:00 AM \u2013 5:00 PM", 
+            "Friday: 9:00 AM \u2013 5:00 PM", 
+            "Saturday: 9:00 AM \u2013 5:00 PM", 
+            "Sunday: 9:00 AM \u2013 5:00 PM"
+        ], 
+        "vicinity": "Ch\u00e2teau, Chambord", 
+        "location": {
+            "lat": 47.616126, 
+            "lng": 1.517218
+        }
+    }, 
+    "The Chenonceau Chateau": {
+        "website": "http://www.chenonceau.com/", 
+        "rating": 4.6, 
+        "utc_offset": 60, 
+        "place_id": "ChIJoaig2dWw_EcRARD_ye9ZEiY", 
+        "phone": "+33 820 20 90 90", 
+        "address": "37150 Chenonceaux, France", 
+        "types": [
+            "park", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png", 
+        "name": "Ch\u00e2teau de Chenonceau", 
+        "url": "https://maps.google.com/?cid=2743354009443045377", 
+        "opening_hours": [
+            "Monday: 9:00 AM \u2013 6:30 PM", 
+            "Tuesday: 9:00 AM \u2013 6:30 PM", 
+            "Wednesday: 9:00 AM \u2013 6:30 PM", 
+            "Thursday: 9:00 AM \u2013 6:30 PM", 
+            "Friday: 9:00 AM \u2013 6:30 PM", 
+            "Saturday: 9:00 AM \u2013 6:30 PM", 
+            "Sunday: 9:00 AM \u2013 6:30 PM"
+        ], 
+        "vicinity": "Chenonceaux", 
+        "location": {
+            "lat": 47.3248696, 
+            "lng": 1.0703005
+        }
+    }, 
+    "The Conciergerie": {
+        "website": "http://conciergerie.monuments-nationaux.fr/", 
+        "rating": 4.1, 
+        "utc_offset": 60, 
+        "place_id": "ChIJR3122B9u5kcRajG2bEZLypA", 
+        "phone": "+33 1 53 40 60 80", 
+        "address": "2 Boulevard du Palais, 75001 Paris, France", 
+        "types": [
+            "museum", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
+        "name": "Conciergerie", 
+        "url": "https://maps.google.com/?cid=10433234252600848746", 
         "opening_hours": [
             "Monday: 9:30 AM \u2013 6:00 PM", 
             "Tuesday: 9:30 AM \u2013 6:00 PM", 
@@ -293,70 +745,10 @@
             "Saturday: 9:30 AM \u2013 6:00 PM", 
             "Sunday: 9:30 AM \u2013 6:00 PM"
         ], 
-        "vicinity": "8 Boulevard du Palais, Paris", 
+        "vicinity": "2 Boulevard du Palais, Paris", 
         "location": {
-            "lat": 48.85542, 
-            "lng": 2.344987
-        }
-    }, 
-    "Centre Georges-Pompidou": {
-        "website": "http://www.centrepompidou.fr/", 
-        "rating": 4.4, 
-        "utc_offset": 60, 
-        "place_id": "ChIJoyC4CRxu5kcRRTPcWX5srLc", 
-        "phone": "+33 1 44 78 12 33", 
-        "address": "Place Georges-Pompidou, 75004 Paris, France", 
-        "types": [
-            "museum", 
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "The Centre Pompidou", 
-        "url": "https://maps.google.com/?cid=13235072694864327493", 
-        "opening_hours": [
-            "Monday: 11:00 AM \u2013 9:00 PM", 
-            "Tuesday: Closed", 
-            "Wednesday: 11:00 AM \u2013 9:00 PM", 
-            "Thursday: 11:00 AM \u2013 9:00 PM", 
-            "Friday: 11:00 AM \u2013 9:00 PM", 
-            "Saturday: 11:00 AM \u2013 9:00 PM", 
-            "Sunday: 11:00 AM \u2013 9:00 PM"
-        ], 
-        "vicinity": "Place Georges-Pompidou, Paris", 
-        "location": {
-            "lat": 48.86064200000001, 
-            "lng": 2.352245
-        }
-    }, 
-    "The Eiffel Tower": {
-        "website": "http://www.toureiffel.paris/", 
-        "rating": 4.6, 
-        "utc_offset": 60, 
-        "place_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0", 
-        "phone": "+33 892 70 12 39", 
-        "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France", 
-        "types": [
-            "premise", 
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
-        "name": "Eiffel Tower", 
-        "url": "https://maps.google.com/?cid=10222232094831998944", 
-        "opening_hours": [
-            "Monday: 9:30 AM \u2013 11:00 PM", 
-            "Tuesday: 9:30 AM \u2013 11:00 PM", 
-            "Wednesday: 9:30 AM \u2013 11:00 PM", 
-            "Thursday: 9:30 AM \u2013 11:00 PM", 
-            "Friday: 9:30 AM \u2013 12:00 AM", 
-            "Saturday: 9:30 AM \u2013 12:00 AM", 
-            "Sunday: 9:30 AM \u2013 11:00 PM"
-        ], 
-        "vicinity": "Champ de Mars, 5 Avenue Anatole France, Paris", 
-        "location": {
-            "lat": 48.85837009999999, 
-            "lng": 2.2944813
+            "lat": 48.85601139999999, 
+            "lng": 2.345495299999999
         }
     }, 
     "The Pantheon": {
@@ -388,132 +780,76 @@
             "lng": 12.4768729
         }
     }, 
-    "Cite des Sciences et de l'industrie": {
-        "website": "http://www.cite-sciences.fr/", 
-        "rating": 4.1, 
-        "utc_offset": 60, 
-        "place_id": "ChIJD6qS3zJs5kcRJ8_ebdhX0VI", 
-        "phone": "+33 1 40 05 70 00", 
-        "address": "30 Avenue Corentin Cariou, 75019 Paris, France", 
-        "types": [
-            "movie_theater", 
-            "museum", 
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "City of Science and Industry", 
-        "url": "https://maps.google.com/?cid=5967647568310488871", 
-        "opening_hours": null, 
-        "vicinity": "30 Avenue Corentin Cariou, Paris", 
-        "location": {
-            "lat": 48.8955948, 
-            "lng": 2.3878996
-        }
-    }, 
-    "The Arc de Triomphe": {
-        "website": "http://arc-de-triomphe.monuments-nationaux.fr/", 
+    "Place des Vosges": {
+        "website": "http://www.parisinfo.com/transports/73189/Place-des-Vosges", 
         "rating": 4.6, 
         "utc_offset": 60, 
-        "place_id": "ChIJjx37cOxv5kcRPWQuEW5ntdk", 
-        "phone": "+33 1 55 37 73 77", 
-        "address": "Place Charles de Gaulle, 75008 Paris, France", 
-        "types": [
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "Arc de Triomphe", 
-        "url": "https://maps.google.com/?cid=15687558599447307325", 
-        "opening_hours": [
-            "Monday: 10:00 AM \u2013 11:00 PM", 
-            "Tuesday: 10:00 AM \u2013 11:00 PM", 
-            "Wednesday: 10:00 AM \u2013 11:00 PM", 
-            "Thursday: 10:00 AM \u2013 11:00 PM", 
-            "Friday: 10:00 AM \u2013 11:00 PM", 
-            "Saturday: 10:00 AM \u2013 11:00 PM", 
-            "Sunday: 10:00 AM \u2013 11:00 PM"
-        ], 
-        "vicinity": "Place Charles de Gaulle, Paris", 
-        "location": {
-            "lat": 48.8737917, 
-            "lng": 2.295027499999999
-        }
-    }, 
-    "Grand Mosque of Paris": {
-        "website": "http://www.mosqueedeparis.net/", 
-        "rating": 4.3, 
-        "utc_offset": 60, 
-        "place_id": "ChIJB9uM3_Fx5kcRy2y4TdSLiBE", 
-        "phone": "+33 1 45 35 97 33", 
-        "address": "2bis Place du Puits de l'Ermite, 75005 Paris, France", 
-        "types": [
-            "mosque", 
-            "place_of_worship", 
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_islam-71.png", 
-        "name": "Grande Mosqu\u00e9e de Paris", 
-        "url": "https://maps.google.com/?cid=1263413439430683851", 
-        "opening_hours": null, 
-        "vicinity": "2bis Place du Puits de l'Ermite, Paris", 
-        "location": {
-            "lat": 48.8418416, 
-            "lng": 2.355172
-        }
-    }, 
-    "Church of St Eustache": {
-        "website": "http://www.saint-eustache.org/", 
-        "rating": 4.6, 
-        "utc_offset": 60, 
-        "place_id": "ChIJK6mOeCJu5kcRpE3-oj_GxD4", 
-        "phone": "+33 1 42 36 31 05", 
-        "address": "2 Impasse Saint-Eustache, 75001 Paris, France", 
-        "types": [
-            "church", 
-            "place_of_worship", 
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/worship_general-71.png", 
-        "name": "Saint-Eustache, Paris", 
-        "url": "https://maps.google.com/?cid=4522957902406634916", 
-        "opening_hours": null, 
-        "vicinity": "2 Impasse Saint-Eustache, Paris", 
-        "location": {
-            "lat": 48.8633888, 
-            "lng": 2.3450527
-        }
-    }, 
-    "Les Invalides": {
-        "website": "http://www.musee-armee.fr/", 
-        "rating": 4.5, 
-        "utc_offset": 60, 
-        "place_id": "ChIJUzCPuddv5kcRasGAnEUUWkU", 
+        "place_id": "ChIJUeiI4P9x5kcRqEwHl6V32GQ", 
         "phone": null, 
-        "address": "Place des Invalides, 75007 Paris, France", 
+        "address": "Place des Vosges, 75004 Paris, France", 
         "types": [
-            "museum", 
+            "park", 
             "point_of_interest", 
             "establishment"
         ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "Les Invalides", 
-        "url": "https://maps.google.com/?cid=4997329025731969386", 
-        "opening_hours": [
-            "Monday: 10:00 AM \u2013 6:00 PM", 
-            "Tuesday: 10:00 AM \u2013 6:00 PM", 
-            "Wednesday: 10:00 AM \u2013 6:00 PM", 
-            "Thursday: 10:00 AM \u2013 6:00 PM", 
-            "Friday: 10:00 AM \u2013 6:00 PM", 
-            "Saturday: 10:00 AM \u2013 6:00 PM", 
-            "Sunday: 10:00 AM \u2013 6:00 PM"
-        ], 
-        "vicinity": "Place des Invalides, Paris", 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png", 
+        "name": "Place des Vosges", 
+        "url": "https://maps.google.com/?cid=7266689551849442472", 
+        "opening_hours": null, 
+        "vicinity": "Place des Vosges, Paris", 
         "location": {
-            "lat": 48.8551861, 
-            "lng": 2.3125844
+            "lat": 48.85561140000001, 
+            "lng": 2.3655266
+        }
+    }, 
+    "Promenade des Anglais": {
+        "website": null, 
+        "rating": null, 
+        "utc_offset": 60, 
+        "place_id": "ChIJ0VoczFnQzRIR737WTal1fso", 
+        "phone": null, 
+        "address": "Prom. des Anglais, Nice, France", 
+        "types": [
+            "route"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+        "name": "Promenade des Anglais", 
+        "url": "https://maps.google.com/?q=Prom.+des+Anglais,+Nice,+France&ftid=0x12cdd059cc1c5ad1:0xca7e75a94dd67eef", 
+        "opening_hours": null, 
+        "vicinity": "Nice", 
+        "location": {
+            "lat": 43.6814531, 
+            "lng": 7.2322608
+        }
+    }, 
+    "The Eiffel Tower": {
+        "website": "http://www.toureiffel.paris/", 
+        "rating": 4.6, 
+        "utc_offset": 60, 
+        "place_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0", 
+        "phone": "+33 892 70 12 39", 
+        "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France", 
+        "types": [
+            "premise", 
+            "point_of_interest", 
+            "establishment"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+        "name": "Eiffel Tower", 
+        "url": "https://maps.google.com/?cid=10222232094831998944", 
+        "opening_hours": [
+            "Monday: 9:30 AM \u2013 11:00 PM", 
+            "Tuesday: 9:30 AM \u2013 11:00 PM", 
+            "Wednesday: 9:30 AM \u2013 11:00 PM", 
+            "Thursday: 9:30 AM \u2013 11:00 PM", 
+            "Friday: 9:30 AM \u2013 12:00 AM", 
+            "Saturday: 9:30 AM \u2013 12:00 AM", 
+            "Sunday: 9:30 AM \u2013 11:00 PM"
+        ], 
+        "vicinity": "Champ de Mars, 5 Avenue Anatole France, Paris", 
+        "location": {
+            "lat": 48.85837009999999, 
+            "lng": 2.2944813
         }
     }
 }

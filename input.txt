@@ -1,7 +1,7 @@
-* Data from https://en.wikipedia.org/wiki/Lists_of_tourist_attractions
 * Program only parses the lines starting with '-'.
+* Currently... I gathered the spots inside France.
 
-(1) France
+(1) Data from https://en.wikipedia.org/wiki/Lists_of_tourist_attractions
 - Centre Georges-Pompidou
 - Cite des Sciences et de l'industrie
 - The Louvre
@@ -21,4 +21,19 @@
 - Sainte-Chapelle
 - Church of St Eustache
 - Grand Mosque of Paris
+
+(2) Data from http://www.touropia.com/tourist-attractions-in-france/
+- The Chenonceau Chateau
+- Le Puy-en-Velay
+- Epernay Champagne
+- Nimes Roman Monuments
+- The Reims Cathedral
+- Promenade des Anglais
+- Palace of Fontainebleau
+- Pont du Gard
+- Chartres Cathedral
+- Palais des Papes
+- Chateau de Chambord
+- Mont Saint-Michel
+- Palace of Versailles
 
