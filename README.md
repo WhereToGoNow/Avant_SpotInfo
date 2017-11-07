@@ -13,3 +13,19 @@ Script for getting spots' information from Google Places API
 ### Dependencies
 - [Python Client for Google Maps Services](https://github.com/googlemaps/google-maps-services-python)
 
+### Currently extracted information
+Attributes marked with \* can be `null`.
+- Website\*
+- Rating\*
+- UTC offset
+- Place ID
+- Phone number\*
+- Address
+- Types
+- Icon (URL form)
+- Name (Exact name used in Google Maps API)
+- URL (in Google Maps API)
+- Opening hours\*
+- Vicinity
+- Location (Latitude & longitude)
+
