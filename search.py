@@ -1,16 +1,15 @@
 from __future__ import print_function
 
-import googlemaps
 import json
 import sys
+import getopt
 
-PATH_INPUT = 'input.txt'
-PATH_OUTPUT = 'output.json'
+import googlemaps
 
-def read_input():
-    print('Reading the names of the spots from %s... ' % PATH_INPUT, end='')
+def read_input(path_input):
+    print('Reading the names of the spots from %s... ' % path_input, end='')
 
-    with open(PATH_INPUT, 'rb') as p:
+    with open(path_input, 'rb') as p:
         lines = p.readlines()
 
     list_names = []
@@ -22,10 +21,10 @@ def read_input():
     print('Success!')
     return list_names
 
-def write_output(dict_info):
-    print('Writing the data to %s... ' % PATH_OUTPUT, end='')
+def write_output(dict_info, path_output):
+    print('Writing the data to %s... ' % path_output, end='')
 
-    with open(PATH_OUTPUT, 'wb') as p:
+    with open(path_output, 'wb') as p:
         json.dump(dict_info, fp=p, indent=4)
 
     print('Success!')
@@ -84,16 +83,50 @@ def search_info(list_names, api_key):
 
     return dict_info
 
-def main(argv):
-    if len(argv) < 2:
-        print('Usage: python search.py (api_key)')
+def print_usage():
+    print('\nUsage: python search.py [-i input] [-o output] -k api_key\n'
+            '(Default: -i input.txt, -o output.json)')
+
+def parse_args():
+    path_input = 'input.txt'
+    path_output = 'output.json'
+    api_key = None
+
+    try:
+        opts, args = getopt.gnu_getopt(sys.argv[1:], 'i:o:k:')
+
+        for o, a in opts:
+            if o == '-i':
+                path_input = a
+            elif o == '-o':
+                path_output = a
+            elif o == '-k':
+                api_key = a
+            else:
+                raise getopt.GetoptError('unhandled option')
+
+        if api_key is None:
+            raise getopt.GetoptError('option -k is necessary')
+    except getopt.GetoptError as e:
+        print(str(e))
+        print_usage()
+
+        return None
+
+    return path_input, path_output, api_key
+
+def main():
+    args = parse_args()
+
+    if args is None:
         return
 
-    api_key = argv[1]
-    list_names = read_input()
+    path_input, path_output, api_key = args
+
+    list_names = read_input(path_input)
     dict_info = search_info(list_names, api_key)
-    write_output(dict_info)
+    write_output(dict_info, path_output)
 
 if __name__ == '__main__':
-    main(sys.argv)
+    main()
 
