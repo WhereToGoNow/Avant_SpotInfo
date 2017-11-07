@@ -1,4 +1,24 @@
 {
+    "Place du Pantheon": {
+        "website": null, 
+        "rating": null, 
+        "utc_offset": 60, 
+        "place_id": "ChIJK5LB1-dx5kcR-9aklzIOXh8", 
+        "phone": null, 
+        "address": "Place du Panth\u00e9on, 75005 Paris, France", 
+        "types": [
+            "route"
+        ], 
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png", 
+        "name": "Place du Panth\u00e9on", 
+        "url": "https://maps.google.com/?q=Place+du+Panth%C3%A9on,+75005+Paris,+France&ftid=0x47e671e7d7c1922b:0x1f5e0e3297a4d6fb", 
+        "opening_hours": null, 
+        "vicinity": "Paris", 
+        "location": {
+            "lat": 48.84568530000001, 
+            "lng": 2.3459011
+        }
+    }, 
     "Notre Dame de Paris Cathedral": {
         "website": "http://www.notredamedeparis.fr/", 
         "rating": 4.7, 
@@ -749,35 +769,6 @@
         "location": {
             "lat": 48.85601139999999, 
             "lng": 2.345495299999999
-        }
-    }, 
-    "The Pantheon": {
-        "website": "http://www.polomusealelazio.beniculturali.it/index.php?it/232/pantheon", 
-        "rating": 4.7, 
-        "utc_offset": 60, 
-        "place_id": "ChIJqUCGZ09gLxMRLM42IPpl0co", 
-        "phone": "+39 06 6830 0230", 
-        "address": "Piazza della Rotonda, 00186 Roma RM, Italy", 
-        "types": [
-            "point_of_interest", 
-            "establishment"
-        ], 
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png", 
-        "name": "Pantheon", 
-        "url": "https://maps.google.com/?cid=14614574390750662188", 
-        "opening_hours": [
-            "Monday: 9:00 AM \u2013 6:00 PM", 
-            "Tuesday: 9:00 AM \u2013 6:00 PM", 
-            "Wednesday: 9:00 AM \u2013 6:00 PM", 
-            "Thursday: 9:00 AM \u2013 6:00 PM", 
-            "Friday: 9:00 AM \u2013 6:00 PM", 
-            "Saturday: 9:00 AM \u2013 6:00 PM", 
-            "Sunday: 8:30 AM \u2013 7:30 AM"
-        ], 
-        "vicinity": "Piazza della Rotonda, Roma", 
-        "location": {
-            "lat": 41.8986108, 
-            "lng": 12.4768729
         }
     }, 
     "Place des Vosges": {
